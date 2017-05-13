@@ -46,7 +46,6 @@ public class E_Calculator {
             iteration++;
         }
 
-        System.out.println(e_value);
         return e_value;
     }
 }
