@@ -39,8 +39,4 @@ public class E_Calculator {
         System.out.println(e_value);
         return e_value;
     }
-
-    public static void main(String[] args) {
-        new E_Calculator().compute_e(10);
-    }
 }
