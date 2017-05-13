@@ -9,7 +9,7 @@ public class E_Calculator {
      * Returns the factorial of the parameter 'number'.
      *
      * Due to restrictions on how large a 64-bit long can be, the highest
-     * number that can be factorialized correctly is 18. After this point,
+     * number that can be factorialized correctly is 20. After this point,
      * the result overflows. A programmer could get around this restriction
      * by using a BigInteger or similar bignum class, but at the moment,
      * we're using longs for speed.
