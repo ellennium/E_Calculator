@@ -7,6 +7,13 @@ public class E_Calculator {
 
     /**
      * Returns the factorial of the parameter 'number'.
+     *
+     * Due to restrictions on how large a 64-bit long can be, the highest
+     * number that can be factorialized correctly is 18. After this point,
+     * the result overflows. A programmer could get around this restriction
+     * by using a BigInteger or similar bignum class, but at the moment,
+     * we're using longs for speed.
+     *
      * @param number the number to be factorialized
      * @return the factorial of the parameter
      */
@@ -24,6 +31,9 @@ public class E_Calculator {
     /**
      * Computes the constant e to a desire precision.
      * The higher the precision, the more accurate the answer, to a point.
+     *
+     * This method for computing e uses a Taylor series.
+     *
      * @param precision the precision of the calculation
      * @return an approximation of e
      */
